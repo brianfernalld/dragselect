@@ -1,0 +1,60 @@
+/*!
+* Javascript Draggable Selectable
+* draggable-selectable.css
+* http://brianfernalld.com
+* MIT licensed
+*
+* Copyright (C) 2013 Brian Fernalld, http://brianfernalld.com
+*/
+
+html {
+  background: url("http://imgsrc.hubblesite.org/hu/db/images/hs-2006-55-a-large_web.jpg") no-repeat;
+  background-size: 100%;
+  font: 1em Arial,sans-serif;
+}
+
+.draggable {
+  position: absolute;
+  cursor: move;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  opacity: 0.9;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: DarkSlateBlue;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+.mailing-list {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  background-color: Snow;
+  opacity: 0.9;
+}
+
+.mailing-list label {
+  font: bold 1.3em Arial;
+  text-transform: uppercase;
+  padding-bottom:  5px;
+  color: #A61C1C;
+}
+
+.select-normal {
+  background-color: Tomato;
+}
+
+.select-over {
+  background-color: SpringGreen;
+}
+
+.select-click {
+  background-color: PaleGoldenRod;
+}
